@@ -7,7 +7,7 @@ const App = () => {
   return (
     <SidebarProvider>
       <AppSidebar />
-      <div className="w-full">
+      <div className="w-full bg-background">
         <Header />
         <MainSection />
       </div>
