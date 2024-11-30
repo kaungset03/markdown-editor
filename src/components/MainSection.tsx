@@ -21,7 +21,7 @@ const MainSection = () => {
       </div> */}
       <section className="w-full main_height grid grid-cols-[1fr,1px,1fr]">
         <TextEditor text={text} onChange={onChange} />
-        <div className="w-full h-full bg-foreground"/>
+        <div className="w-full h-full bg-gray-800"/>
         <Preview markdown={text} />
       </section>
     </main>
